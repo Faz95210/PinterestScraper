@@ -129,7 +129,7 @@ def scrollPage(name, n_pages = 1, save_after=100):
 
     
 
-def pinterestScrapper( name_list, n_pages, save_after=100):
+def pinterestScraper( name_list, n_pages, save_after=100):
     
     for name in name_list:
         print(' ')
@@ -140,4 +140,4 @@ def pinterestScrapper( name_list, n_pages, save_after=100):
         
         scrollPage(name, n_pages, save_after)
             
-pinterestScrapper( name_list, n_pages, save_after)
+pinterestScraper( name_list, n_pages, save_after)
