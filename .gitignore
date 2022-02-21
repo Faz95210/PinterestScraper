@@ -1,4 +1,5 @@
 _scrapped/
 _results_files/
+venv/
 geckodriver.log
 shortcodes.csv
